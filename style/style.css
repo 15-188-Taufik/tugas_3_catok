@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+}
+
+
+  nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 61, 143);
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    gap: 10px;
+  }
+  nav a {
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #181414;
+}
+
+nav a:hover{
+  color: #636060;
+  transform: scale(1.1);
+  transition: color 0.3s ease-in-out;
+}
+
+  .container{
+    width: 80%;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 16px 16px 30px -4px rgba(0,0,0,0.62);
+}  
+.hero{
+    padding: 20px;
+    background-color: #f7e7e7;
+  }
+
+.text-hero{
+    margin-left: 20px;
+    text-align: justify;
+    align-self: first baseline;
+    color: #333;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.biodata-table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .biodata-table th {
+    background-color: #a59696;
+    color: white;
+    padding: 12px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .biodata-table td {
+    border: 1px solid #0a0000;
+    background-color: #ddbbbb;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .foto_respect{
+    width: 180px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    box-shadow: 10px 10px rgba(77, 46, 46, 0.205);
+
+  }
+
+  .main-content {
+    padding: 20px;
+
+  }
+  .main-content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .the-list {
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+    
+  }
+
+  .list-card {
+    background-color: #b18787;
+    padding: 10px 20px 10px 0px;
+    border-radius: 8px;
+    width: 50%;
+  }
+
+  .list-card-deep {
+    margin-left: 20px;
+    padding: 30px;
+  }
+  .list-card-deep h3{
+    color: #353333;
+  }
+  footer{
+    background-color: #ff0000;
+  }
+
+  .footer-card {
+    padding: 10px 20px;
+    background-color: rgb(59, 61, 143);
+  }
+  .footer-card h3,a {
+    color: #d4bdbd;
+  }
+  .footer-card a:hover{
+    color: #636060;
+    transform: scale(1.1);
+    transition: color 0.3s ease-in-out;
+  }
+  .footer-card img{
+    width: 52px;
+    height: 52px;
+  }
+  #wa{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 9px;
+  }
